@@ -8,7 +8,7 @@ int main(void)
 {
 	char ch = 'a';
 
-	printf("Lowercase English Alphabets:\n");
+	printf("LowercaseEnglishAlphabets:\n");
 	while (ch <= 'z')
 	{
 		printf("%c ", ch);
