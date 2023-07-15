@@ -1,4 +1,4 @@
-#include <stio.h>
+#include <stdio.h>
 /**
  *  main - C proramming
  *  Return: 0 (Success)
