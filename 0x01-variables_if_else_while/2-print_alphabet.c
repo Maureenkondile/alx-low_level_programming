@@ -1,19 +1,18 @@
 #include <stdio.h>
+
 /**
- * main - Beginning
+ * main - Start
  *
  * Return: 0 (success)
  */
 int main(void)
 {
-	char ch = 'a';
+	char letter;
 
-	printf("LowercaseEnglishAlphabets:\n");
-	while (ch <= 'z')
-	{
-		printf("%c ", ch);
-		ch++;
-	}
-	printf("\n");
+	for (letter = 'a'; letter <= 'z'; letter++)
+		putchar(letter);
+
+	putchar('\n');
+
 	return (0);
 }
