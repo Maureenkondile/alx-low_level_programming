@@ -1,0 +1,2 @@
+#!/bin/bash
+gcc -S -manm=intel $CFILE
