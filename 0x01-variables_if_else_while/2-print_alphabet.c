@@ -2,6 +2,7 @@
 #include <stdlib.h>
 #include <time.h>
 /**
+ 
  * main - Beginning
  *
  * Return: 0 (Success)
