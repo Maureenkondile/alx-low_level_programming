@@ -1,22 +1,18 @@
 #include "main.h"
 
 /**
- * print_times_table - prints times table for numbers from 0-14
- * @n: an integer
- * Return: Nothing
+ * main - entry point
+ *
+ * Return: 0. (success)
  */
-void print_times_table(int n)
+int main(void)
 {
-	int i, j;
-
-	if (n > 0 && n < 15)
-	{
-		for (i = 0; i <= n; i++)
-		{
-			_putchar('0');
-			for (j = 1; j <= n; j++)
-				_putchar(i * j);
-			_putchar('\n');
-		}
-	}
+    print_times_table(3);
+    _putchar('\n');
+    print_times_table(5);
+    _putchar('\n');
+    print_times_table(98);
+    _putchar('\n');
+    print_times_table(12);  
+    return (0);
 }
