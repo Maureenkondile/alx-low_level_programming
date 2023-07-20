@@ -1,7 +1,6 @@
 #include "main.h"
 
 /**
- * main - entry point
  * _isalpha - check if an input is an alphabet
  * @c: the character to be checked
  *
